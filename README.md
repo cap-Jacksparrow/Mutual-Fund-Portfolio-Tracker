@@ -32,3 +32,13 @@ It fetches schemes, latest NAVs, NAV history, and allows users to manage their i
 git clone https://github.com/cap-Jacksparrow/Mutual-Fund-Portfolio-Tracker.git
 
 cd Mutual-Fund-Portfolio-Tracker/backend
+```
+
+---
+## Environment Variables
+
+- `PORT` – Port number where the server runs.
+- `MONGODB_URI` – Connection string for MongoDB database.
+- `JWT_SECRET` – Secret key used to sign JWT tokens.
+- `NODE_ENV` – Environment (development, production, etc.).
+

@@ -30,3 +30,5 @@ It fetches schemes, latest NAVs, NAV history, and allows users to manage their i
 ### 1. Clone repo
 ```bash
 git clone https://github.com/cap-Jacksparrow/Mutual-Fund-Portfolio-Tracker.git
+
+cd Mutual-Fund-Portfolio-Tracker/backend

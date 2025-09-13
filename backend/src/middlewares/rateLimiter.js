@@ -6,7 +6,7 @@ const { ipKeyGenerator } = require("express-rate-limit");
   windowMs: 1 * 60 * 1000, // 1 minute
   max: 5, // limit each IP to 5 requests per windowMs
   message: "Too many login attempts. Try again after a minute.",
-keyGenerator:ipkeyGenerator, // limit per IP
+keyGenerator: ipKeyGenerator // limit per IP
 });
 
 // 2. General API calls - per user
